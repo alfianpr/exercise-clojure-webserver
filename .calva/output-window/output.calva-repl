@@ -1,0 +1,86 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this:
+; "calva.autoSelectReplConnectProjectType": "Leiningen"
+;   - See https://calva.io/connect/#auto-select-project-type
+; 
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉simpleweb.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉simpleweb.core꞉> 
+"testhallohaha"
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/-main
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/test
+; WARNING: test already refers to: #'clojure.core/test in namespace: simpleweb.core, being replaced by: #'simpleweb.core/test
+clj꞉simpleweb.core꞉> 
+hallo
+nil
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/test
+clj꞉simpleweb.core꞉> 
+; Execution error (ArityException) at simpleweb.core/eval8227 (form-init40502622526565208.clj:17).
+; Wrong number of args (0) passed to: simpleweb.core/test
+clj꞉simpleweb.core꞉> 
+; Syntax error compiling at (src/simpleweb/core.clj:17:1).
+; Unable to resolve symbol: x in this context
+clj꞉simpleweb.core꞉> 
+; Execution error (ArityException) at simpleweb.core/eval8230 (form-init40502622526565208.clj:17).
+; Wrong number of args (0) passed to: simpleweb.core/test
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/test
+clj꞉simpleweb.core꞉> 
+hallo
+nil
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/warp-nocache
+clj꞉simpleweb.core꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:3605).
+; Cannot cast clojure.core$println to java.lang.Number
+clj꞉simpleweb.core꞉> 
+1
+clj꞉simpleweb.core꞉> 
+1
+nil
+clj꞉simpleweb.core꞉> 
+3
+nil
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/-main
+clj꞉simpleweb.core꞉> 
+; Syntax error compiling at (src/simpleweb/core.clj:1:7929).
+; Unable to resolve symbol: request in this context
+clj꞉simpleweb.core꞉> 
+; Execution error (IllegalAccessError) at simpleweb.core/eval8810$loading (form-init40502622526565208.clj:1).
+; warp-reloaded does not exist
+clj꞉simpleweb.core꞉> 
+; Syntax error compiling at (src/simpleweb/core.clj:20:3).
+; No such namespace: jetty
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core-test/wrap-nocache
+clj꞉simpleweb.core-test꞉> 
+; Syntax error compiling at (src/simpleweb/core.clj:8:3).
+; No such namespace: response
+clj꞉simpleweb.core꞉> 
+; Execution error (FileNotFoundException) at simpleweb.core/eval8831$loading (form-init40502622526565208.clj:1).
+; Could not locate ring/util/http_response__init.class, ring/util/http_response.clj or ring/util/http_response.cljc on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+clj꞉simpleweb.core꞉> 
+; Syntax error compiling at (src/simpleweb/core.clj:19:1).
+; Unable to resolve symbol: json-handler in this context
+clj꞉simpleweb.core꞉> 
