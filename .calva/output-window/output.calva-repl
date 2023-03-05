@@ -84,3 +84,15 @@ clj꞉simpleweb.core꞉> 
 ; Syntax error compiling at (src/simpleweb/core.clj:19:1).
 ; Unable to resolve symbol: json-handler in this context
 clj꞉simpleweb.core꞉> 
+#'simpleweb.core/kali
+clj꞉simpleweb.core꞉> 
+20
+clj꞉simpleweb.core꞉> 
+20
+clj꞉simpleweb.core꞉> 
+20
+clj꞉simpleweb.core꞉> 
+#'simpleweb.core/kali
+clj꞉simpleweb.core꞉> 
+20
+clj꞉simpleweb.core꞉> 
