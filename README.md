@@ -1,10 +1,6 @@
-# simpleweb
+# Personal Web
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+A simple personal web build with Clojure
 
 ## License
 
